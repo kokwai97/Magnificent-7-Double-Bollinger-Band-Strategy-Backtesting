@@ -10,4 +10,14 @@ This is an iterative backtester to simulate trading based on signals generated b
 
 Generally, Magnificent 7 & Double Bollinger Band Strategy Backtesting.ipynb requires 3 libraries to be run: numpy, pandas and yfinance
 
-For modularity, the code is 
+The code consists of several functions for modularity and a for-loop to loop through each of the 'Magnificent 7' stocks.
+1. buy.py - Buys shares
+2. sell.py - Sells shares
+3. execute_trade.py - Executes trades based on trading signals generated
+4. total_and_annual_returns.py - Compute the total and annual returns
+5. annual_volatility.py - Compute the annual volatility
+6. sharpe_ratio.py - Computes the Sharpe ratio
+7. sortino_ratio.py - Computes the Sortino ratio
+8. max_drawdown.py - Computes the maximum drawdown
+9. backtester.py - An iterative backtester which first computes the Double Bollinger bands and then simulates tradings based on signals generated using the bands
+10. mag_7_for_loop.py - A for-loop to loop through each of the 'Magnificent 7' stocks
