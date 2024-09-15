@@ -8,7 +8,10 @@ This is an iterative backtester to simulate trading based on signals generated b
 6. Sortino Ratio
 7. Maximum Drawdown
 
-Generally, Magnificent 7 & Double Bollinger Band Strategy Backtesting.ipynb requires 3 libraries to be run: numpy, pandas and yfinance
+Generally, Magnificent 7 & Double Bollinger Band Strategy Backtesting.ipynb requires 3 libraries to be run: 
+1. Numpy
+2. Pandas
+3. YFinance
 
 The code consists of several functions for modularity and a for-loop to loop through each of the 'Magnificent 7' stocks.
 1. buy.py - Buys shares
